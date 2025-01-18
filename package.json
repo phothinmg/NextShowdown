@@ -1,5 +1,5 @@
 {
-  "name": "lwe8-blog",
+  "name": "next-showdown",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -9,16 +9,23 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@tailwindcss/postcss": "^4.0.0-beta.9",
+    "daisyui": "^5.0.0-beta.1",
+    "lwe8-frontmatter": "^0.1.0",
+    "lwe8-icons-react": "^0.1.1",
+    "next": "15.1.5",
+    "next-themes": "^0.4.4",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
-    "next": "15.1.5"
+    "shiki": "^1.27.2",
+    "tailwindcss": "^4.0.0-beta.9"
   },
   "devDependencies": {
-    "typescript": "^5",
+    "@tailwindcss/typography": "^0.5.16",
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",
     "postcss": "^8",
-    "tailwindcss": "^3.4.1"
+    "typescript": "^5"
   }
 }
